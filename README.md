@@ -17,3 +17,6 @@ $$\Omega(x)=\frac{x^{\gamma}}{[x^{\gamma}+(1-x)^{\gamma}]^{\frac{1}{\gamma}}}$$
 subject to 
 $$x=\frac{\alpha \sum p_{i1}l_{i0} + \beta \sum p_{i0}l_{i1}}{0.5 \sum (p_{i0}l_{i0}+p_{i1}l_{i1}) + \alpha \sum p_{i1}l_{i0} + \beta \sum p_{i0}l_{i1}} \ \ \ \ \ \ \ i \in \{1,2,...,N\}$$
 $\alpha + \beta$=1; $\gamma$=$\frac{4}{3}$.
+## Results
+![table1](https://github.com/tswizzle141/Tversky-Kahneman-A-New-Loss-Function-For-Skin-Lesion-Image-Segmentation/blob/main/2.jpg)
+![table2](https://github.com/tswizzle141/Tversky-Kahneman-A-New-Loss-Function-For-Skin-Lesion-Image-Segmentation/blob/main/3.jpg)
