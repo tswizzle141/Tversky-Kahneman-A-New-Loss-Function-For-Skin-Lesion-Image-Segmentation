@@ -1,5 +1,5 @@
 # Tversky-Kahneman-A-New-Loss-Function-For-Skin-Lesion-Image-Segmentation
-#### (Specially thanks to @minhnhattrinh312 for the code)
+#### (Specially thanks to @minhnhattrinh312 for our lovely cooperation)
 ## Our tasks
 Skin lesion segmentation on the ISIC 2017 and ISIC 2018.
 ## Our contributions
