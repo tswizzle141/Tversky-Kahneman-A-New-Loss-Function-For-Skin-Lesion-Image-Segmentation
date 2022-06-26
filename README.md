@@ -15,7 +15,7 @@ where $z \in [0,1]$ is the cumulative probability distribution of gains or losse
 Inspired by this kind of function, a new loss for medical image segmentation is proposed, which is also named as Tversky-Kahneman:
 $$\Omega(x)=\frac{x^{\gamma}}{[x^{\gamma}+(1-x)^{\gamma}]^{\frac{1}{\gamma}}}$$
 subject to 
-$$x=\frac{\alpha \sum_{i=1}^N p_{i1}l_{i0} + \beta \sum_{i=1}^N p_{i0}l_{i1}}{0.5 \sum_{i=1}^N (p_{i0}l_{i0}+p_{i1}l_{i1}) + \alpha \sum_{i=1}^N p_{i1}l_{i0} + \beta \sum_{i=1}^N p_{i0}l_{i1}} \ \ \ \ \ \ \ i \in \{1,2,...,N\}$$
-and $\alpha, \beta$ regulate the penalty amplitude of $p_{i1}l_{i0}$ as the false positive (FP) and $p_{i0}l_{i1}$ as the false negative (FN), respectively. $\alpha+\beta=1$. The larger $\beta$, the higher weight of recall compared to precision. $x \in [0,1]$.
+$$x=\frac{\alpha \sum p_{i1}l_{i0} + \beta \sum p_{i0}l_{i1}}{0.5 \sum (p_{i0}l_{i0}+p_{i1}l_{i1}) + \alpha \sum p_{i1}l_{i0} + \beta \sum p_{i0}l_{i1}} \ \ \ \ \ \ \ i \in \{1,2,...,N\}$$
+and $\alpha, \beta$ regulate the penalty amplitude of $p_{i1}l_{i0}$ as the false positive (FP) and $p_{i0}l_{i1}$ as the false negative (FN), respectively. \alpha+\beta=1. The larger \beta, the higher weight of recall compared to precision. $x \in [0,1]$.
 
-The best performance is confirmed with $\gamma=\frac{4}{3}$.
+The best performance is confirmed with \gamma=$\frac{4}{3}$.
